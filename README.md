@@ -1,1 +1,1 @@
-# avalanche-network-runner-sdk
+# metal-network-runner-sdk

@@ -1,9 +1,9 @@
-// Copied from https://github.com/ava-labs/avalanche-network-runner/blob/v1.2.2/rpcpb/rpc.proto
+// Copied from https://github.com/MetalBlockchain/metal-network-runner/blob/v1.2.2/rpcpb/rpc.proto
 // without gRPC gateway dependency
 
 syntax = "proto3";
 
-option go_package = "github.com/ava-labs/avalanche-network-runner-sdk;rpcpb";
+option go_package = "github.com/MetalBlockchain/metal-network-runner-sdk;rpcpb";
 
 package rpcpb;
 
@@ -64,7 +64,7 @@ message CustomChainInfo {
   string vm_id = 2;
 
   // Create subnet transaction ID -- subnet ID.
-  // The subnet ID must be whitelisted by the avalanche node.
+  // The subnet ID must be whitelisted by the metal node.
   string subnet_id = 3;
 
   // Create blockchain transaction ID -- blockchain ID>

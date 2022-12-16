@@ -1,8 +1,8 @@
 // Copyright (C) 2019-2022, Ava Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
-// Package avalanche-network-runner-sdk implements client.
-package avalanche_network_runner_sdk
+// Package metal-network-runner-sdk implements client.
+package metal_network_runner_sdk
 
 import (
 	"context"
@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanche-network-runner-sdk/pkg/color"
-	"github.com/ava-labs/avalanche-network-runner-sdk/pkg/logutil"
-	"github.com/ava-labs/avalanche-network-runner-sdk/rpcpb"
+	"github.com/MetalBlockchain/metal-network-runner-sdk/pkg/color"
+	"github.com/MetalBlockchain/metal-network-runner-sdk/pkg/logutil"
+	"github.com/MetalBlockchain/metal-network-runner-sdk/rpcpb"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
